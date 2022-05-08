@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 197, in script
+    if ans not "Y2K Bug" or "y2k bug":
+SyntaxError: invalid syntax (script.rpy, line 197)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 197, in script
+    if ans not "Y2K Bug" or "y2k bug":
+  File "renpy/ast.py", line 2095, in execute
+    if renpy.python.py_eval(condition):
+  File "renpy/python.py", line 1068, in py_eval
+    code = py_compile(code, 'eval')
+  File "renpy/python.py", line 1005, in py_compile
+    raise e
+SyntaxError: invalid syntax (script.rpy, line 197)
+
+Windows-10-10.0.22000
+Ren'Py 7.5.0.22050204n
+Codemap 1.0
+Sat May  7 09:17:59 2022

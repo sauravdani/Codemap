@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 363: expected statement.
+    contest = " Find the errors in the code given below and correct the code:\n "
+            ^
+
+Ren'Py Version: Ren'Py 7.5.0.22050204n
+Sat May  7 10:06:36 2022
